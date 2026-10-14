@@ -14,7 +14,11 @@ console.log("Reader guard: every failed material check goes to a person");
   o = M.guard(Object.assign({}, base, { invoices: base.invoices.map(i => Object.assign({}, i, { status: "paid_in_full" })) }), r.text, r.refs, r.date);
   ok(o._human, "an unknown per-invoice status goes to a person");
   o = M.guard(base, r.text, r.refs, r.date);
-  ok(!o._human && o.promised_date, "the recorded, valid reading is unchanged (no person needed, date kept)"); }
+  ok(!o._human && o.promised_date, "the recorded, valid reading is unchanged (no person needed, date kept)");
+  o = M.guard(Object.assign({}, base, { tone: "frustrated", needs_human: false }), r.text, r.refs, r.date);
+  ok(o._human && o._angry, "frustrated tone always routes to human review even if AI does not request it");
+  o = M.guard(Object.assign({}, base, { tone: "hostile", needs_human: false }), r.text, r.refs, r.date);
+  ok(o._human && o._angry, "hostile tone always routes to human review"); }
 
 console.log("Draft check: any currency format and any payment pressure");
 { const id = "R-S01"; const d = B.drafts[id]; const body = String(d.body);

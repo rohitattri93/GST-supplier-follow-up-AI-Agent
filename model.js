@@ -123,7 +123,7 @@
       }
       if (o.intent === "claims_fixed") checks.push({ ok: true, t: "A claim is never counted as fixed; GSTR-2B decides (rule R7)" });
       const st = (o.invoices || []).map(i => i.status);
-      const rule = HUMAN_INTENTS.includes(o.intent) || st.some(s => HUMAN_INTENTS.includes(s)) || o.tone === "hostile" ||
+      const rule = HUMAN_INTENTS.includes(o.intent) || st.some(s => HUMAN_INTENTS.includes(s)) || (o.tone === "hostile" || o.tone === "frustrated") ||
         (o.risk_flags || []).some(f => /^(financial_distress|partial_coverage|unknown_invoice)/.test(f)) || o.confidence === "low" || !evOk ||
         bad.length > 0 || badSt.length > 0 || dateBad; // any failed material check sends the reply to a person
       o._human = !!o.needs_human || rule; o._checks = checks; o._evOk = evOk;

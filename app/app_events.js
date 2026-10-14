@@ -37,7 +37,7 @@ async function liveTry(sid) {
   if (!text) { UI.tryOut[sid] = { error: "Write a reply first." }; render(); return; }
   UI.tryText = text; UI.busy["try|" + sid] = true; UI.keepScroll = true; render();
   const refs = v.inv.map(x => x.ref); const today = clockNow();
-  try { const r = await askChecked("reader", readerPromptFor(v, text), out => ({ ok: true, checks: M.guard(out, text, refs, today)._checks })); UI.tryOut[sid] = { text, g: M.guard(r.out, text, refs, today), ms: r.ms, tier: r.tier }; }
+  try { const r = await askChecked("reader", readerPromptFor(v, text), out => { const g = M.guard(out, text, refs, today); return { ok: g._checks.every(c => c.ok), checks: g._checks }; }); UI.tryOut[sid] = { text, g: M.guard(r.out, text, refs, today), ms: r.ms, tier: r.tier }; }
   catch (e) { UI.tryOut[sid] = { error: errText(e) }; }
   UI.busy["try|" + sid] = false; UI.keepScroll = true; render();
 }

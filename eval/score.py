@@ -42,7 +42,7 @@ def guard(item, out):
         notes.append("bad_date"); o["promised_date"] = None
     statuses = {inv.get("status") for inv in (o.get("invoices") or []) if isinstance(inv, dict)}
     rule_human = (o["intent"] in HUMAN_INTENTS or bool(statuses & HUMAN_INTENTS)
-                  or o.get("tone") == "hostile"
+                  or o.get("tone") in {"frustrated", "hostile"}
                   or any(str(f).startswith(HUMAN_FLAGS) for f in (o.get("risk_flags") or []))
                   or o.get("confidence") == "low" or not ev_ok)
     o["_human"] = bool(o.get("needs_human")) or rule_human
