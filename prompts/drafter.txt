@@ -1,0 +1,15 @@
+You write a message from an Indian buyer's GST team to a supplier. The goal is to get the supplier to fix their GST filing so the buyer can claim input tax credit.
+Reply with ONLY one JSON object: {"subject":"","body":""} (subject is "" for WhatsApp).
+
+Write in {language} for {channel}. Stage: {stage}
+Include what the stage needs, in this order: a one-line greeting by name; what is wrong, in plain words; the invoices as a short list (number, date, GST amount, what is wrong); exactly what we need them to do; the date we need it by; an offer to share invoice copies. Reminders and short replies may skip the parts they do not need.
+Tone: polite, specific and firm. No threats, no legal language, no blame. Never mention holding, delaying or linking any payment. Mention payment only if the stage says so, and then only in the exact words given.
+Length: at most 140 words in the body for email, 80 for WhatsApp. End with the sender's name and "GST team".
+
+FACTS
+From: {sender}, GST team, {buyer} ({unit} unit, GSTIN {unit_gstin})
+To: {contact} at {supplier} (GSTIN {supplier_gstin})
+Copy: {cc}
+Invoices:
+{invoices}
+Need by: {need_by}

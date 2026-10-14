@@ -1,0 +1,489 @@
+[
+ {
+  "id": "N-S01",
+  "sid": "S01",
+  "refs": [
+   "SGP/1182",
+   "SGP/1197"
+  ],
+  "stage": "first_notice",
+  "when": "2026-10-01",
+  "channel": "WhatsApp",
+  "purpose": "Asked them to fix their GST filing for SGP/1182 and SGP/1197 by 11 Oct",
+  "language": "Hinglish",
+  "to": "Mahesh Kulkarni",
+  "cc": null,
+  "prompt": "You write a message from an Indian buyer's GST team to a supplier. The goal is to get the supplier to fix their GST filing so the buyer can claim input tax credit.\nReply with ONLY one JSON object: {\"subject\":\"\",\"body\":\"\"} (subject is \"\" for WhatsApp).\n\nWrite in Hinglish (Hindi in Latin script, mixed with English) for WhatsApp. Stage: First message about these invoices.\nInclude what the stage needs, in this order: a one-line greeting by name; what is wrong, in plain words; the invoices as a short list (number, date, GST amount, what is wrong); exactly what we need them to do; the date we need it by; an offer to share invoice copies. Reminders and short replies may skip the parts they do not need.\nTone: polite, specific and firm. No threats, no legal language, no blame. Never mention holding, delaying or linking any payment. Mention payment only if the stage says so, and then only in the exact words given.\nLength: at most 140 words in the body for email, 80 for WhatsApp. End with the sender's name and \"GST team\".\n\nFACTS\nFrom: Abhishek Attri, GST team, Kestrel Auto Components Pvt Ltd (Pune unit, GSTIN 27ZZKCK4821M1Z0)\nTo: Mahesh Kulkarni at Shree Ganesh Packaging (GSTIN 27ZZKPK3307L1ZG)\nCopy: none\nInvoices:\n- SGP/1182 | 12 Aug 2026 | GST ₹33,552 | Missing from our GSTR-2B\n- SGP/1197 | 21 Aug 2026 | GST ₹38,664 | Missing from our GSTR-2B\nNeed by: 11 Oct 2026, the due date of your September GSTR-1\n"
+ },
+ {
+  "id": "N-S02",
+  "sid": "S02",
+  "refs": [
+   "PST/26-27/0871",
+   "PST/26-27/0874",
+   "PST/26-27/0880"
+  ],
+  "stage": "first_notice",
+  "when": "2026-10-01",
+  "channel": "Email",
+  "purpose": "Asked them to fix their GST filing for PST/26-27/0871, PST/26-27/0874 and PST/26-27/0880 by 11 Oct",
+  "language": "English",
+  "to": "Hitesh Patel",
+  "cc": null,
+  "prompt": "You write a message from an Indian buyer's GST team to a supplier. The goal is to get the supplier to fix their GST filing so the buyer can claim input tax credit.\nReply with ONLY one JSON object: {\"subject\":\"\",\"body\":\"\"} (subject is \"\" for WhatsApp).\n\nWrite in English for Email. Stage: First message about these invoices.\nInclude what the stage needs, in this order: a one-line greeting by name; what is wrong, in plain words; the invoices as a short list (number, date, GST amount, what is wrong); exactly what we need them to do; the date we need it by; an offer to share invoice copies. Reminders and short replies may skip the parts they do not need.\nTone: polite, specific and firm. No threats, no legal language, no blame. Never mention holding, delaying or linking any payment. Mention payment only if the stage says so, and then only in the exact words given.\nLength: at most 140 words in the body for email, 80 for WhatsApp. End with the sender's name and \"GST team\".\n\nFACTS\nFrom: Abhishek Attri, GST team, Kestrel Auto Components Pvt Ltd (Pune unit, GSTIN 27ZZKCK4821M1Z0)\nTo: Hitesh Patel at Patel Steel Traders (GSTIN 24ZZAFP6120D1ZS)\nCopy: none\nInvoices:\n- PST/26-27/0871 | 5 Aug 2026 | GST ₹1,51,200 | Missing from our GSTR-2B\n- PST/26-27/0874 | 9 Aug 2026 | GST ₹1,12,500 | Missing from our GSTR-2B\n- PST/26-27/0880 | 18 Aug 2026 | GST ₹1,63,800 | Missing from our GSTR-2B\nNeed by: 11 Oct 2026, the due date of your September GSTR-1\n"
+ },
+ {
+  "id": "N-S03",
+  "sid": "S03",
+  "refs": [
+   "BF/26-27/3310"
+  ],
+  "stage": "first_notice",
+  "when": "2026-10-01",
+  "channel": "Email",
+  "purpose": "Asked them to fix their GST filing for BF/26-27/3310 by 11 Oct",
+  "language": "English",
+  "to": "Gurpreet Singh",
+  "cc": null,
+  "prompt": "You write a message from an Indian buyer's GST team to a supplier. The goal is to get the supplier to fix their GST filing so the buyer can claim input tax credit.\nReply with ONLY one JSON object: {\"subject\":\"\",\"body\":\"\"} (subject is \"\" for WhatsApp).\n\nWrite in English for Email. Stage: First message about these invoices.\nInclude what the stage needs, in this order: a one-line greeting by name; what is wrong, in plain words; the invoices as a short list (number, date, GST amount, what is wrong); exactly what we need them to do; the date we need it by; an offer to share invoice copies. Reminders and short replies may skip the parts they do not need.\nTone: polite, specific and firm. No threats, no legal language, no blame. Never mention holding, delaying or linking any payment. Mention payment only if the stage says so, and then only in the exact words given.\nLength: at most 140 words in the body for email, 80 for WhatsApp. End with the sender's name and \"GST team\".\n\nFACTS\nFrom: Abhishek Attri, GST team, Kestrel Auto Components Pvt Ltd (Manesar unit, GSTIN 06ZZKCK4821M1Z4)\nTo: Gurpreet Singh at Bharat Fasteners (GSTIN 03ZZBCB2214Q1ZT)\nCopy: none\nInvoices:\n- BF/26-27/3310 | 14 Aug 2026 | GST ₹74,160 | Supplier reported GST ₹71,640 instead of ₹74,160\nNeed by: 11 Oct 2026, the due date of your September GSTR-1\n"
+ },
+ {
+  "id": "N-S04",
+  "sid": "S04",
+  "refs": [
+   "NP/2526/1450",
+   "NP/2526/1502",
+   "NP/2627/0215"
+  ],
+  "stage": "first_notice",
+  "when": "2026-10-01",
+  "channel": "Email",
+  "purpose": "Asked them to fix their GST filing for NP/2526/1450, NP/2526/1502 and NP/2627/0215 by 11 Oct",
+  "language": "English",
+  "to": "Rakesh Shah",
+  "cc": null,
+  "prompt": "You write a message from an Indian buyer's GST team to a supplier. The goal is to get the supplier to fix their GST filing so the buyer can claim input tax credit.\nReply with ONLY one JSON object: {\"subject\":\"\",\"body\":\"\"} (subject is \"\" for WhatsApp).\n\nWrite in English for Email. Stage: First message about these invoices.\nInclude what the stage needs, in this order: a one-line greeting by name; what is wrong, in plain words; the invoices as a short list (number, date, GST amount, what is wrong); exactly what we need them to do; the date we need it by; an offer to share invoice copies. Reminders and short replies may skip the parts they do not need.\nTone: polite, specific and firm. No threats, no legal language, no blame. Never mention holding, delaying or linking any payment. Mention payment only if the stage says so, and then only in the exact words given.\nLength: at most 140 words in the body for email, 80 for WhatsApp. End with the sender's name and \"GST team\".\n\nFACTS\nFrom: Abhishek Attri, GST team, Kestrel Auto Components Pvt Ltd (Pune unit, GSTIN 27ZZKCK4821M1Z0)\nTo: Rakesh Shah at Nova Polymers (GSTIN 24ZZNCN7731H1Z4)\nCopy: none\nInvoices:\n- NP/2526/1450 | 18 Feb 2026 | GST ₹2,23,200 | Missing from our GSTR-2B\n- NP/2526/1502 | 9 Mar 2026 | GST ₹1,77,300 | Missing from our GSTR-2B\n- NP/2627/0215 | 22 Jul 2026 | GST ₹1,36,800 | Missing from our GSTR-2B\nNeed by: 11 Oct 2026, the due date of your September GSTR-1 (our credit on the FY 2025-26 invoices can only be claimed until 30 Nov 2026)\n"
+ },
+ {
+  "id": "N-S05",
+  "sid": "S05",
+  "refs": [
+   "KE/219"
+  ],
+  "stage": "first_notice",
+  "when": "2026-10-01",
+  "channel": "WhatsApp",
+  "purpose": "Asked them to fix their GST filing for KE/219 by 11 Oct",
+  "language": "Hindi",
+  "to": "Ramesh Kumar",
+  "cc": null,
+  "prompt": "You write a message from an Indian buyer's GST team to a supplier. The goal is to get the supplier to fix their GST filing so the buyer can claim input tax credit.\nReply with ONLY one JSON object: {\"subject\":\"\",\"body\":\"\"} (subject is \"\" for WhatsApp).\n\nWrite in Hindi (Devanagari script) for WhatsApp. Stage: First message about these invoices.\nInclude what the stage needs, in this order: a one-line greeting by name; what is wrong, in plain words; the invoices as a short list (number, date, GST amount, what is wrong); exactly what we need them to do; the date we need it by; an offer to share invoice copies. Reminders and short replies may skip the parts they do not need.\nTone: polite, specific and firm. No threats, no legal language, no blame. Never mention holding, delaying or linking any payment. Mention payment only if the stage says so, and then only in the exact words given.\nLength: at most 140 words in the body for email, 80 for WhatsApp. End with the sender's name and \"GST team\".\n\nFACTS\nFrom: Abhishek Attri, GST team, Kestrel Auto Components Pvt Ltd (Manesar unit, GSTIN 06ZZKCK4821M1Z4)\nTo: Ramesh Kumar at Krishna Electricals (GSTIN 06ZZKPK4410R1ZA)\nCopy: none\nInvoices:\n- KE/219 | 11 Aug 2026 | GST ₹21,600 | Supplier reported GST ₹18,000 instead of ₹21,600\nNeed by: 11 Oct 2026, the due date of your September GSTR-1\n"
+ },
+ {
+  "id": "N-S07",
+  "sid": "S07",
+  "refs": [
+   "SRW/0933",
+   "SRW/0941"
+  ],
+  "stage": "first_notice",
+  "when": "2026-10-01",
+  "channel": "Email",
+  "purpose": "Asked them to fix their GST filing for SRW/0933 and SRW/0941 by 11 Oct",
+  "language": "English",
+  "to": "Lakshmi Narayanan",
+  "cc": null,
+  "prompt": "You write a message from an Indian buyer's GST team to a supplier. The goal is to get the supplier to fix their GST filing so the buyer can claim input tax credit.\nReply with ONLY one JSON object: {\"subject\":\"\",\"body\":\"\"} (subject is \"\" for WhatsApp).\n\nWrite in English for Email. Stage: First message about these invoices.\nInclude what the stage needs, in this order: a one-line greeting by name; what is wrong, in plain words; the invoices as a short list (number, date, GST amount, what is wrong); exactly what we need them to do; the date we need it by; an offer to share invoice copies. Reminders and short replies may skip the parts they do not need.\nTone: polite, specific and firm. No threats, no legal language, no blame. Never mention holding, delaying or linking any payment. Mention payment only if the stage says so, and then only in the exact words given.\nLength: at most 140 words in the body for email, 80 for WhatsApp. End with the sender's name and \"GST team\".\n\nFACTS\nFrom: Abhishek Attri, GST team, Kestrel Auto Components Pvt Ltd (Chennai unit, GSTIN 33ZZKCK4821M1Z7)\nTo: Lakshmi Narayanan at Sunrise Rubber Works (GSTIN 33ZZSCS8813K1ZN)\nCopy: none\nInvoices:\n- SRW/0933 | 8 Aug 2026 | GST ₹43,200 | Reported as IGST; should be CGST + SGST\n- SRW/0941 | 19 Aug 2026 | GST ₹35,100 | Reported as IGST; should be CGST + SGST\nNeed by: 11 Oct 2026, the due date of your September GSTR-1\n"
+ },
+ {
+  "id": "N-S08",
+  "sid": "S08",
+  "refs": [
+   "AMT/INV/26/4471"
+  ],
+  "stage": "first_notice",
+  "when": "2026-10-01",
+  "channel": "Email",
+  "purpose": "Asked them to fix their GST filing for AMT/INV/26/4471 by 11 Oct",
+  "language": "English",
+  "to": "Deepa Rao",
+  "cc": null,
+  "prompt": "You write a message from an Indian buyer's GST team to a supplier. The goal is to get the supplier to fix their GST filing so the buyer can claim input tax credit.\nReply with ONLY one JSON object: {\"subject\":\"\",\"body\":\"\"} (subject is \"\" for WhatsApp).\n\nWrite in English for Email. Stage: First message about these invoices.\nInclude what the stage needs, in this order: a one-line greeting by name; what is wrong, in plain words; the invoices as a short list (number, date, GST amount, what is wrong); exactly what we need them to do; the date we need it by; an offer to share invoice copies. Reminders and short replies may skip the parts they do not need.\nTone: polite, specific and firm. No threats, no legal language, no blame. Never mention holding, delaying or linking any payment. Mention payment only if the stage says so, and then only in the exact words given.\nLength: at most 140 words in the body for email, 80 for WhatsApp. End with the sender's name and \"GST team\".\n\nFACTS\nFrom: Abhishek Attri, GST team, Kestrel Auto Components Pvt Ltd (Chennai unit, GSTIN 33ZZKCK4821M1Z7)\nTo: Deepa Rao at Apex Machine Tools (GSTIN 29ZZACA9045F1ZL)\nCopy: none\nInvoices:\n- AMT/INV/26/4471 | 28 Aug 2026 | GST ₹3,33,000 | Missing from our GSTR-2B\nNeed by: 11 Oct 2026, the due date of your September GSTR-1\n"
+ },
+ {
+  "id": "N-S09",
+  "sid": "S09",
+  "refs": [
+   "GLF/0815"
+  ],
+  "stage": "first_notice",
+  "when": "2026-10-01",
+  "channel": "Email",
+  "purpose": "Asked them to fix their GST filing for GLF/0815 by 11 Oct",
+  "language": "English",
+  "to": "Anjali Mehra",
+  "cc": null,
+  "prompt": "You write a message from an Indian buyer's GST team to a supplier. The goal is to get the supplier to fix their GST filing so the buyer can claim input tax credit.\nReply with ONLY one JSON object: {\"subject\":\"\",\"body\":\"\"} (subject is \"\" for WhatsApp).\n\nWrite in English for Email. Stage: First message about these invoices.\nInclude what the stage needs, in this order: a one-line greeting by name; what is wrong, in plain words; the invoices as a short list (number, date, GST amount, what is wrong); exactly what we need them to do; the date we need it by; an offer to share invoice copies. Reminders and short replies may skip the parts they do not need.\nTone: polite, specific and firm. No threats, no legal language, no blame. Never mention holding, delaying or linking any payment. Mention payment only if the stage says so, and then only in the exact words given.\nLength: at most 140 words in the body for email, 80 for WhatsApp. End with the sender's name and \"GST team\".\n\nFACTS\nFrom: Abhishek Attri, GST team, Kestrel Auto Components Pvt Ltd (Manesar unit, GSTIN 06ZZKCK4821M1Z4)\nTo: Anjali Mehra at GreenLeaf Facility Services (GSTIN 06ZZGCG3376N1Z2)\nCopy: none\nInvoices:\n- GLF/0815 | 31 Aug 2026 | GST ₹86,400 | Missing from our GSTR-2B\nNeed by: 11 Oct 2026, the due date of your September GSTR-1\n"
+ },
+ {
+  "id": "N-S10",
+  "sid": "S10",
+  "refs": [
+   "RA/2526/0388",
+   "RA/2627/0119"
+  ],
+  "stage": "first_notice",
+  "when": "2026-10-01",
+  "channel": "WhatsApp",
+  "purpose": "Asked them to fix their GST filing for RA/2526/0388 and RA/2627/0119 by 11 Oct",
+  "language": "Hinglish",
+  "to": "Vikas Rathi",
+  "cc": null,
+  "prompt": "You write a message from an Indian buyer's GST team to a supplier. The goal is to get the supplier to fix their GST filing so the buyer can claim input tax credit.\nReply with ONLY one JSON object: {\"subject\":\"\",\"body\":\"\"} (subject is \"\" for WhatsApp).\n\nWrite in Hinglish (Hindi in Latin script, mixed with English) for WhatsApp. Stage: First message about these invoices.\nInclude what the stage needs, in this order: a one-line greeting by name; what is wrong, in plain words; the invoices as a short list (number, date, GST amount, what is wrong); exactly what we need them to do; the date we need it by; an offer to share invoice copies. Reminders and short replies may skip the parts they do not need.\nTone: polite, specific and firm. No threats, no legal language, no blame. Never mention holding, delaying or linking any payment. Mention payment only if the stage says so, and then only in the exact words given.\nLength: at most 140 words in the body for email, 80 for WhatsApp. End with the sender's name and \"GST team\".\n\nFACTS\nFrom: Abhishek Attri, GST team, Kestrel Auto Components Pvt Ltd (Pune unit, GSTIN 27ZZKCK4821M1Z0)\nTo: Vikas Rathi at Rathi Alloys (GSTIN 08ZZRFR6604A1Z4)\nCopy: none\nInvoices:\n- RA/2526/0388 | 24 Mar 2026 | GST ₹1,00,800 | Missing from our GSTR-2B\n- RA/2627/0119 | 6 Aug 2026 | GST ₹57,600 | Missing from our GSTR-2B\nNeed by: 11 Oct 2026, the due date of your September GSTR-1 (our credit on the FY 2025-26 invoices can only be claimed until 30 Nov 2026)\n"
+ },
+ {
+  "id": "N-S11",
+  "sid": "S11",
+  "refs": [
+   "ST/2231",
+   "ST/2232",
+   "ST/2231-B"
+  ],
+  "stage": "first_notice",
+  "when": "2026-10-01",
+  "channel": "WhatsApp",
+  "purpose": "Asked them to fix their GST filing for ST/2231, ST/2232 and ST/2231-B by 11 Oct",
+  "language": "Hinglish",
+  "to": "Prakash Sawant",
+  "cc": null,
+  "prompt": "You write a message from an Indian buyer's GST team to a supplier. The goal is to get the supplier to fix their GST filing so the buyer can claim input tax credit.\nReply with ONLY one JSON object: {\"subject\":\"\",\"body\":\"\"} (subject is \"\" for WhatsApp).\n\nWrite in Hinglish (Hindi in Latin script, mixed with English) for WhatsApp. Stage: First message about these invoices.\nInclude what the stage needs, in this order: a one-line greeting by name; what is wrong, in plain words; the invoices as a short list (number, date, GST amount, what is wrong); exactly what we need them to do; the date we need it by; an offer to share invoice copies. Reminders and short replies may skip the parts they do not need.\nTone: polite, specific and firm. No threats, no legal language, no blame. Never mention holding, delaying or linking any payment. Mention payment only if the stage says so, and then only in the exact words given.\nLength: at most 140 words in the body for email, 80 for WhatsApp. End with the sender's name and \"GST team\".\n\nFACTS\nFrom: Abhishek Attri, GST team, Kestrel Auto Components Pvt Ltd (Pune unit, GSTIN 27ZZKCK4821M1Z0)\nTo: Prakash Sawant at Sai Tooling Solutions (GSTIN 27ZZSCS2087J1ZK)\nCopy: none\nInvoices:\n- ST/2231 | 3 Aug 2026 | GST ₹13,680 | Missing from our GSTR-2B\n- ST/2232 | 3 Aug 2026 | GST ₹11,610 | Missing from our GSTR-2B\n- ST/2231-B | 3 Aug 2026 | GST ₹13,680 | Missing from our GSTR-2B\nNeed by: 11 Oct 2026, the due date of your September GSTR-1\n"
+ },
+ {
+  "id": "N-S12",
+  "sid": "S12",
+  "refs": [
+   "VC/0512",
+   "VC/0688"
+  ],
+  "stage": "first_notice",
+  "when": "2026-10-01",
+  "channel": "Email",
+  "purpose": "Asked them to fix their GST filing for VC/0512 and VC/0688 by 11 Oct",
+  "language": "English",
+  "to": "Farhan Sheikh",
+  "cc": null,
+  "prompt": "You write a message from an Indian buyer's GST team to a supplier. The goal is to get the supplier to fix their GST filing so the buyer can claim input tax credit.\nReply with ONLY one JSON object: {\"subject\":\"\",\"body\":\"\"} (subject is \"\" for WhatsApp).\n\nWrite in English for Email. Stage: First message about these invoices.\nInclude what the stage needs, in this order: a one-line greeting by name; what is wrong, in plain words; the invoices as a short list (number, date, GST amount, what is wrong); exactly what we need them to do; the date we need it by; an offer to share invoice copies. Reminders and short replies may skip the parts they do not need.\nTone: polite, specific and firm. No threats, no legal language, no blame. Never mention holding, delaying or linking any payment. Mention payment only if the stage says so, and then only in the exact words given.\nLength: at most 140 words in the body for email, 80 for WhatsApp. End with the sender's name and \"GST team\".\n\nFACTS\nFrom: Abhishek Attri, GST team, Kestrel Auto Components Pvt Ltd (Pune unit, GSTIN 27ZZKCK4821M1Z0)\nTo: Farhan Sheikh at Vega Chemicals (GSTIN 24ZZVCV5149E1ZU)\nCopy: none\nInvoices:\n- VC/0512 | 16 Jan 2026 | GST ₹1,24,200 | Missing from our GSTR-2B\n- VC/0688 | 12 Aug 2026 | GST ₹78,300 | Missing from our GSTR-2B\nNeed by: 11 Oct 2026, the due date of your September GSTR-1 (our credit on the FY 2025-26 invoices can only be claimed until 30 Nov 2026)\n"
+ },
+ {
+  "id": "N-S13",
+  "sid": "S13",
+  "refs": [
+   "JIG/26/1104",
+   "JIG/26/1131"
+  ],
+  "stage": "first_notice",
+  "when": "2026-10-01",
+  "channel": "Email",
+  "purpose": "Asked them to fix their GST filing for JIG/26/1104 and JIG/26/1131 by 11 Oct",
+  "language": "English",
+  "to": "Anil Deshmukh",
+  "cc": null,
+  "prompt": "You write a message from an Indian buyer's GST team to a supplier. The goal is to get the supplier to fix their GST filing so the buyer can claim input tax credit.\nReply with ONLY one JSON object: {\"subject\":\"\",\"body\":\"\"} (subject is \"\" for WhatsApp).\n\nWrite in English for Email. Stage: First message about these invoices.\nInclude what the stage needs, in this order: a one-line greeting by name; what is wrong, in plain words; the invoices as a short list (number, date, GST amount, what is wrong); exactly what we need them to do; the date we need it by; an offer to share invoice copies. Reminders and short replies may skip the parts they do not need.\nTone: polite, specific and firm. No threats, no legal language, no blame. Never mention holding, delaying or linking any payment. Mention payment only if the stage says so, and then only in the exact words given.\nLength: at most 140 words in the body for email, 80 for WhatsApp. End with the sender's name and \"GST team\".\n\nFACTS\nFrom: Abhishek Attri, GST team, Kestrel Auto Components Pvt Ltd (Pune unit, GSTIN 27ZZKCK4821M1Z0)\nTo: Anil Deshmukh at Jyoti Industrial Gases (GSTIN 27ZZJCJ8270C1ZC)\nCopy: none\nInvoices:\n- JIG/26/1104 | 10 Aug 2026 | GST ₹52,200 | Missing from our GSTR-2B\n- JIG/26/1131 | 24 Aug 2026 | GST ₹54,900 | Missing from our GSTR-2B\nNeed by: 11 Oct 2026, the due date of your September GSTR-1\n"
+ },
+ {
+  "id": "N-S14",
+  "sid": "S14",
+  "refs": [
+   "KP/0716",
+   "KP/0722"
+  ],
+  "stage": "first_notice",
+  "when": "2026-10-01",
+  "channel": "Email",
+  "purpose": "Asked them to fix their GST filing for KP/0716 and KP/0722 by 11 Oct",
+  "language": "English",
+  "to": "Senthil Kumar",
+  "cc": null,
+  "prompt": "You write a message from an Indian buyer's GST team to a supplier. The goal is to get the supplier to fix their GST filing so the buyer can claim input tax credit.\nReply with ONLY one JSON object: {\"subject\":\"\",\"body\":\"\"} (subject is \"\" for WhatsApp).\n\nWrite in English for Email. Stage: First message about these invoices.\nInclude what the stage needs, in this order: a one-line greeting by name; what is wrong, in plain words; the invoices as a short list (number, date, GST amount, what is wrong); exactly what we need them to do; the date we need it by; an offer to share invoice copies. Reminders and short replies may skip the parts they do not need.\nTone: polite, specific and firm. No threats, no legal language, no blame. Never mention holding, delaying or linking any payment. Mention payment only if the stage says so, and then only in the exact words given.\nLength: at most 140 words in the body for email, 80 for WhatsApp. End with the sender's name and \"GST team\".\n\nFACTS\nFrom: Abhishek Attri, GST team, Kestrel Auto Components Pvt Ltd (Chennai unit, GSTIN 33ZZKCK4821M1Z7)\nTo: Senthil Kumar at Kaveri Precision (GSTIN 33ZZKCK1958G1ZC)\nCopy: none\nInvoices:\n- KP/0716 | 7 Aug 2026 | GST ₹37,800 | Supplier reported GST ₹36,180 instead of ₹37,800\n- KP/0722 | 14 Aug 2026 | GST ₹33,300 | Supplier reported GST ₹31,860 instead of ₹33,300\nNeed by: 11 Oct 2026, the due date of your September GSTR-1\n"
+ },
+ {
+  "id": "N-S15",
+  "sid": "S15",
+  "refs": [
+   "DEW/26/0561",
+   "DEW/26/0570"
+  ],
+  "stage": "first_notice",
+  "when": "2026-10-15",
+  "channel": "Email",
+  "purpose": "Asked them to report DEW/26/0561 and DEW/26/0570 in their October GSTR-1, by 11 Nov",
+  "language": "English",
+  "to": "Rohan Kale",
+  "cc": null,
+  "prompt": "You write a message from an Indian buyer's GST team to a supplier. The goal is to get the supplier to fix their GST filing so the buyer can claim input tax credit.\nReply with ONLY one JSON object: {\"subject\":\"\",\"body\":\"\"} (subject is \"\" for WhatsApp).\n\nWrite in English for Email. Stage: First message about these invoices.\nInclude what the stage needs, in this order: a one-line greeting by name; what is wrong, in plain words; the invoices as a short list (number, date, GST amount, what is wrong); exactly what we need them to do; the date we need it by; an offer to share invoice copies. Reminders and short replies may skip the parts they do not need.\nTone: polite, specific and firm. No threats, no legal language, no blame. Never mention holding, delaying or linking any payment. Mention payment only if the stage says so, and then only in the exact words given.\nLength: at most 140 words in the body for email, 80 for WhatsApp. End with the sender's name and \"GST team\".\n\nFACTS\nFrom: Abhishek Attri, GST team, Kestrel Auto Components Pvt Ltd (Pune unit, GSTIN 27ZZKCK4821M1Z0)\nTo: Rohan Kale at Delta Engineering Works (GSTIN 27ZZDCD4473P1Z0)\nCopy: none\nInvoices:\n- DEW/26/0561 | 9 Sep 2026 | GST ₹1,29,600 | Missing from our GSTR-2B\n- DEW/26/0570 | 22 Sep 2026 | GST ₹97,200 | Missing from our GSTR-2B\nNeed by: 11 Nov 2026, the due date of your October GSTR-1\n"
+ },
+ {
+  "id": "N-S16",
+  "sid": "S16",
+  "refs": [
+   "OOS/0091"
+  ],
+  "stage": "first_notice",
+  "when": "2026-10-15",
+  "channel": "WhatsApp",
+  "purpose": "Asked them to report OOS/0091 in their October GSTR-1, by 11 Nov",
+  "language": "Hinglish",
+  "to": "Sanjay Verma",
+  "cc": null,
+  "prompt": "You write a message from an Indian buyer's GST team to a supplier. The goal is to get the supplier to fix their GST filing so the buyer can claim input tax credit.\nReply with ONLY one JSON object: {\"subject\":\"\",\"body\":\"\"} (subject is \"\" for WhatsApp).\n\nWrite in Hinglish (Hindi in Latin script, mixed with English) for WhatsApp. Stage: First message about these invoices.\nInclude what the stage needs, in this order: a one-line greeting by name; what is wrong, in plain words; the invoices as a short list (number, date, GST amount, what is wrong); exactly what we need them to do; the date we need it by; an offer to share invoice copies. Reminders and short replies may skip the parts they do not need.\nTone: polite, specific and firm. No threats, no legal language, no blame. Never mention holding, delaying or linking any payment. Mention payment only if the stage says so, and then only in the exact words given.\nLength: at most 140 words in the body for email, 80 for WhatsApp. End with the sender's name and \"GST team\".\n\nFACTS\nFrom: Abhishek Attri, GST team, Kestrel Auto Components Pvt Ltd (Manesar unit, GSTIN 06ZZKCK4821M1Z4)\nTo: Sanjay Verma at Orbit Office Supplies (GSTIN 09ZZOPV2210K1Z9)\nCopy: none\nInvoices:\n- OOS/0091 | 17 Sep 2026 | GST ₹3,330 | Missing from our GSTR-2B\nNeed by: 11 Nov 2026, the due date of your October GSTR-1\n"
+ },
+ {
+  "id": "X-S02",
+  "sid": "S02",
+  "refs": [
+   "PST/26-27/0871",
+   "PST/26-27/0874",
+   "PST/26-27/0880"
+  ],
+  "stage": "wrong_gstin",
+  "when": "2026-10-15",
+  "channel": "Email",
+  "purpose": "Asked them to amend the recipient GSTIN to our Pune GSTIN",
+  "language": "English",
+  "to": "Hitesh Patel",
+  "cc": null,
+  "prompt": "You write a message from an Indian buyer's GST team to a supplier. The goal is to get the supplier to fix their GST filing so the buyer can claim input tax credit.\nReply with ONLY one JSON object: {\"subject\":\"\",\"body\":\"\"} (subject is \"\" for WhatsApp).\n\nWrite in English for Email. Stage: They replied that all three invoices were filed in their August GSTR-1 (ARN AA240926118734Q). We searched the GSTR-2B of all three of our GSTINs: the invoices are there, but under our Manesar unit's GSTIN 06ZZKCK4821M1Z4 instead of our Pune unit's GSTIN 27ZZKCK4821M1Z0. Thank them for filing, and ask them to amend the recipient GSTIN to 27ZZKCK4821M1Z0 in their next GSTR-1.\nInclude what the stage needs, in this order: a one-line greeting by name; what is wrong, in plain words; the invoices as a short list (number, date, GST amount, what is wrong); exactly what we need them to do; the date we need it by; an offer to share invoice copies. Reminders and short replies may skip the parts they do not need.\nTone: polite, specific and firm. No threats, no legal language, no blame. Never mention holding, delaying or linking any payment. Mention payment only if the stage says so, and then only in the exact words given.\nLength: at most 140 words in the body for email, 80 for WhatsApp. End with the sender's name and \"GST team\".\n\nFACTS\nFrom: Abhishek Attri, GST team, Kestrel Auto Components Pvt Ltd (Pune unit, GSTIN 27ZZKCK4821M1Z0)\nTo: Hitesh Patel at Patel Steel Traders (GSTIN 24ZZAFP6120D1ZS)\nCopy: none\nInvoices:\n- PST/26-27/0871 | 5 Aug 2026 | GST ₹1,51,200 | Missing from our GSTR-2B\n- PST/26-27/0874 | 9 Aug 2026 | GST ₹1,12,500 | Missing from our GSTR-2B\n- PST/26-27/0880 | 18 Aug 2026 | GST ₹1,63,800 | Missing from our GSTR-2B\nNeed by: 11 Nov 2026, the due date of your October GSTR-1\n"
+ },
+ {
+  "id": "X-S03",
+  "sid": "S03",
+  "refs": [
+   "BF/26-27/3310"
+  ],
+  "stage": "send_documents",
+  "when": "2026-10-15",
+  "channel": "Email",
+  "purpose": "Sent the PO and GRN and asked them to confirm or amend the value",
+  "language": "English",
+  "to": "Gurpreet Singh",
+  "cc": null,
+  "prompt": "You write a message from an Indian buyer's GST team to a supplier. The goal is to get the supplier to fix their GST filing so the buyer can claim input tax credit.\nReply with ONLY one JSON object: {\"subject\":\"\",\"body\":\"\"} (subject is \"\" for WhatsApp).\n\nWrite in English for Email. Stage: They asked for our PO and GRN for invoice BF/26-27/3310. Say the PO (PO-MAN-26-0457) and GRN (GRN-MAN-26-1189) copies are attached, that our books show a taxable value of ₹4,12,000 as per the PO, and ask them to confirm the value or amend it.\nInclude what the stage needs, in this order: a one-line greeting by name; what is wrong, in plain words; the invoices as a short list (number, date, GST amount, what is wrong); exactly what we need them to do; the date we need it by; an offer to share invoice copies. Reminders and short replies may skip the parts they do not need.\nTone: polite, specific and firm. No threats, no legal language, no blame. Never mention holding, delaying or linking any payment. Mention payment only if the stage says so, and then only in the exact words given.\nLength: at most 140 words in the body for email, 80 for WhatsApp. End with the sender's name and \"GST team\".\n\nFACTS\nFrom: Abhishek Attri, GST team, Kestrel Auto Components Pvt Ltd (Manesar unit, GSTIN 06ZZKCK4821M1Z4)\nTo: Gurpreet Singh at Bharat Fasteners (GSTIN 03ZZBCB2214Q1ZT)\nCopy: none\nInvoices:\n- BF/26-27/3310 | 14 Aug 2026 | GST ₹74,160 | Supplier reported GST ₹71,640 instead of ₹74,160\nNeed by: 11 Nov 2026, the due date of your October GSTR-1\n"
+ },
+ {
+  "id": "X-S04",
+  "sid": "S04",
+  "refs": [
+   "NP/2526/1450",
+   "NP/2526/1502",
+   "NP/2627/0215"
+  ],
+  "stage": "payment_condition_escalation",
+  "when": "2026-10-15",
+  "channel": "Email",
+  "purpose": "Confirmed the scheduled 28 Oct payment date and asked for all three invoices in the October GSTR-1 by 11 Nov; copied Priya Menon",
+  "language": "English",
+  "to": "Rakesh Shah",
+  "cc": "Priya Menon (account owner, Kestrel)",
+  "prompt": "You write a message from an Indian buyer's GST team to a supplier. The goal is to get the supplier to fix their GST filing so the buyer can claim input tax credit.\nReply with ONLY one JSON object: {\"subject\":\"\",\"body\":\"\"} (subject is \"\" for WhatsApp).\n\nWrite in English for Email. Stage: Reply to their message that they will upload the invoices only after their outstanding payment of Rs 14.8 lakh is released. You may mention payment only in exactly these words: 'Your payment of ₹14,80,000 is scheduled for 28 Oct as per our terms.' Explain that two of the invoices are from FY 2025-26, so they must reach our GSTR-2B through your October GSTR-1 (due 11 Nov); after that the credit cannot be claimed. Ask them to report all three invoices in the October GSTR-1 by 11 Nov. Say that Priya Menon, who manages the account, is copied and will call them this week.\nInclude what the stage needs, in this order: a one-line greeting by name; what is wrong, in plain words; the invoices as a short list (number, date, GST amount, what is wrong); exactly what we need them to do; the date we need it by; an offer to share invoice copies. Reminders and short replies may skip the parts they do not need.\nTone: polite, specific and firm. No threats, no legal language, no blame. Never mention holding, delaying or linking any payment. Mention payment only if the stage says so, and then only in the exact words given.\nLength: at most 140 words in the body for email, 80 for WhatsApp. End with the sender's name and \"GST team\".\n\nFACTS\nFrom: Abhishek Attri, GST team, Kestrel Auto Components Pvt Ltd (Pune unit, GSTIN 27ZZKCK4821M1Z0)\nTo: Rakesh Shah at Nova Polymers (GSTIN 24ZZNCN7731H1Z4)\nCopy: Priya Menon (account owner, Kestrel)\nInvoices:\n- NP/2526/1450 | 18 Feb 2026 | GST ₹2,23,200 | Missing from our GSTR-2B\n- NP/2526/1502 | 9 Mar 2026 | GST ₹1,77,300 | Missing from our GSTR-2B\n- NP/2627/0215 | 22 Jul 2026 | GST ₹1,36,800 | Missing from our GSTR-2B\nNeed by: 11 Nov 2026, the due date of your October GSTR-1 (this is also the last filing that keeps our FY 2025-26 credit claimable before 30 Nov 2026)\n"
+ },
+ {
+  "id": "X-S08",
+  "sid": "S08",
+  "refs": [
+   "AMT/INV/26/4471"
+  ],
+  "stage": "follow_up_after_leave",
+  "when": "2026-10-21",
+  "channel": "Email",
+  "purpose": "Repeated the request after their leave",
+  "language": "English",
+  "to": "Deepa Rao",
+  "cc": null,
+  "prompt": "You write a message from an Indian buyer's GST team to a supplier. The goal is to get the supplier to fix their GST filing so the buyer can claim input tax credit.\nReply with ONLY one JSON object: {\"subject\":\"\",\"body\":\"\"} (subject is \"\" for WhatsApp).\n\nWrite in English for Email. Stage: Gentle follow-up: their contact was out of office until 20 Oct. Repeat the request briefly.\nInclude what the stage needs, in this order: a one-line greeting by name; what is wrong, in plain words; the invoices as a short list (number, date, GST amount, what is wrong); exactly what we need them to do; the date we need it by; an offer to share invoice copies. Reminders and short replies may skip the parts they do not need.\nTone: polite, specific and firm. No threats, no legal language, no blame. Never mention holding, delaying or linking any payment. Mention payment only if the stage says so, and then only in the exact words given.\nLength: at most 140 words in the body for email, 80 for WhatsApp. End with the sender's name and \"GST team\".\n\nFACTS\nFrom: Abhishek Attri, GST team, Kestrel Auto Components Pvt Ltd (Chennai unit, GSTIN 33ZZKCK4821M1Z7)\nTo: Deepa Rao at Apex Machine Tools (GSTIN 29ZZACA9045F1ZL)\nCopy: none\nInvoices:\n- AMT/INV/26/4471 | 28 Aug 2026 | GST ₹3,33,000 | Missing from our GSTR-2B\nNeed by: 11 Nov 2026, the due date of your October GSTR-1\n"
+ },
+ {
+  "id": "X-S09",
+  "sid": "S09",
+  "refs": [
+   "GLF/0815"
+  ],
+  "stage": "new_contact",
+  "when": "2026-10-15",
+  "channel": "Email",
+  "purpose": "Wrote to the new contact (finance@greenleaf.example)",
+  "language": "English",
+  "to": "Finance team",
+  "cc": null,
+  "prompt": "You write a message from an Indian buyer's GST team to a supplier. The goal is to get the supplier to fix their GST filing so the buyer can claim input tax credit.\nReply with ONLY one JSON object: {\"subject\":\"\",\"body\":\"\"} (subject is \"\" for WhatsApp).\n\nWrite in English for Email. Stage: The previous contact, Anjali Mehra, has left. This is the first message to the new contact, the finance team at finance@greenleaf.example.\nInclude what the stage needs, in this order: a one-line greeting by name; what is wrong, in plain words; the invoices as a short list (number, date, GST amount, what is wrong); exactly what we need them to do; the date we need it by; an offer to share invoice copies. Reminders and short replies may skip the parts they do not need.\nTone: polite, specific and firm. No threats, no legal language, no blame. Never mention holding, delaying or linking any payment. Mention payment only if the stage says so, and then only in the exact words given.\nLength: at most 140 words in the body for email, 80 for WhatsApp. End with the sender's name and \"GST team\".\n\nFACTS\nFrom: Abhishek Attri, GST team, Kestrel Auto Components Pvt Ltd (Manesar unit, GSTIN 06ZZKCK4821M1Z4)\nTo: Finance team at GreenLeaf Facility Services (GSTIN 06ZZGCG3376N1Z2)\nCopy: none\nInvoices:\n- GLF/0815 | 31 Aug 2026 | GST ₹86,400 | Missing from our GSTR-2B\nNeed by: 11 Nov 2026, the due date of your October GSTR-1\n"
+ },
+ {
+  "id": "X-S10",
+  "sid": "S10",
+  "refs": [
+   "RA/2526/0388",
+   "RA/2627/0119"
+  ],
+  "stage": "ask_date",
+  "when": "2026-10-15",
+  "channel": "WhatsApp",
+  "purpose": "Asked for a specific date",
+  "language": "Hinglish",
+  "to": "Vikas Rathi",
+  "cc": null,
+  "prompt": "You write a message from an Indian buyer's GST team to a supplier. The goal is to get the supplier to fix their GST filing so the buyer can claim input tax credit.\nReply with ONLY one JSON object: {\"subject\":\"\",\"body\":\"\"} (subject is \"\" for WhatsApp).\n\nWrite in Hinglish (Hindi in Latin script, mixed with English) for WhatsApp. Stage: They replied 'ok noted' without a date. Ask for a specific date by which both invoices will be reported.\nInclude what the stage needs, in this order: a one-line greeting by name; what is wrong, in plain words; the invoices as a short list (number, date, GST amount, what is wrong); exactly what we need them to do; the date we need it by; an offer to share invoice copies. Reminders and short replies may skip the parts they do not need.\nTone: polite, specific and firm. No threats, no legal language, no blame. Never mention holding, delaying or linking any payment. Mention payment only if the stage says so, and then only in the exact words given.\nLength: at most 140 words in the body for email, 80 for WhatsApp. End with the sender's name and \"GST team\".\n\nFACTS\nFrom: Abhishek Attri, GST team, Kestrel Auto Components Pvt Ltd (Pune unit, GSTIN 27ZZKCK4821M1Z0)\nTo: Vikas Rathi at Rathi Alloys (GSTIN 08ZZRFR6604A1Z4)\nCopy: none\nInvoices:\n- RA/2526/0388 | 24 Mar 2026 | GST ₹1,00,800 | Missing from our GSTR-2B\n- RA/2627/0119 | 6 Aug 2026 | GST ₹57,600 | Missing from our GSTR-2B\nNeed by: 11 Nov 2026, the due date of your October GSTR-1 (this is also the last filing that keeps our FY 2025-26 credit claimable before 30 Nov 2026)\n"
+ },
+ {
+  "id": "X-S12",
+  "sid": "S12",
+  "refs": [
+   "VC/0512"
+  ],
+  "stage": "partial_follow_up",
+  "when": "2026-10-15",
+  "channel": "Email",
+  "purpose": "Asked specifically about VC/0512 (January 2026)",
+  "language": "English",
+  "to": "Farhan Sheikh",
+  "cc": null,
+  "prompt": "You write a message from an Indian buyer's GST team to a supplier. The goal is to get the supplier to fix their GST filing so the buyer can claim input tax credit.\nReply with ONLY one JSON object: {\"subject\":\"\",\"body\":\"\"} (subject is \"\" for WhatsApp).\n\nWrite in English for Email. Stage: They promised to file their August and September returns by 31 Oct but did not mention invoice VC/0512 from January 2026. Thank them, and ask specifically about VC/0512.\nInclude what the stage needs, in this order: a one-line greeting by name; what is wrong, in plain words; the invoices as a short list (number, date, GST amount, what is wrong); exactly what we need them to do; the date we need it by; an offer to share invoice copies. Reminders and short replies may skip the parts they do not need.\nTone: polite, specific and firm. No threats, no legal language, no blame. Never mention holding, delaying or linking any payment. Mention payment only if the stage says so, and then only in the exact words given.\nLength: at most 140 words in the body for email, 80 for WhatsApp. End with the sender's name and \"GST team\".\n\nFACTS\nFrom: Abhishek Attri, GST team, Kestrel Auto Components Pvt Ltd (Pune unit, GSTIN 27ZZKCK4821M1Z0)\nTo: Farhan Sheikh at Vega Chemicals (GSTIN 24ZZVCV5149E1ZU)\nCopy: none\nInvoices:\n- VC/0512 | 16 Jan 2026 | GST ₹1,24,200 | Missing from our GSTR-2B\nNeed by: 11 Nov 2026, the due date of your October GSTR-1 (this is also the last filing that keeps our FY 2025-26 credit claimable before 30 Nov 2026)\n"
+ },
+ {
+  "id": "X-S13",
+  "sid": "S13",
+  "refs": [
+   "JIG/26/1131"
+  ],
+  "stage": "evidence_reply",
+  "when": "2026-10-15",
+  "channel": "Email",
+  "purpose": "Thanked them for JIG/26/1104 and asked them to check JIG/26/1131",
+  "language": "English",
+  "to": "Anil Deshmukh",
+  "cc": null,
+  "prompt": "You write a message from an Indian buyer's GST team to a supplier. The goal is to get the supplier to fix their GST filing so the buyer can claim input tax credit.\nReply with ONLY one JSON object: {\"subject\":\"\",\"body\":\"\"} (subject is \"\" for WhatsApp).\n\nWrite in English for Email. Stage: They said every invoice was filed and asked us to stop reminders. Our September GSTR-2B now shows JIG/26/1104, so thank them for it and say we will send no more reminders on it. Calmly ask them to check JIG/26/1131, which is still missing.\nInclude what the stage needs, in this order: a one-line greeting by name; what is wrong, in plain words; the invoices as a short list (number, date, GST amount, what is wrong); exactly what we need them to do; the date we need it by; an offer to share invoice copies. Reminders and short replies may skip the parts they do not need.\nTone: polite, specific and firm. No threats, no legal language, no blame. Never mention holding, delaying or linking any payment. Mention payment only if the stage says so, and then only in the exact words given.\nLength: at most 140 words in the body for email, 80 for WhatsApp. End with the sender's name and \"GST team\".\n\nFACTS\nFrom: Abhishek Attri, GST team, Kestrel Auto Components Pvt Ltd (Pune unit, GSTIN 27ZZKCK4821M1Z0)\nTo: Anil Deshmukh at Jyoti Industrial Gases (GSTIN 27ZZJCJ8270C1ZC)\nCopy: none\nInvoices:\n- JIG/26/1131 | 24 Aug 2026 | GST ₹54,900 | Missing from our GSTR-2B\nNeed by: 11 Nov 2026, the due date of your October GSTR-1\n"
+ },
+ {
+  "id": "R-S01",
+  "sid": "S01",
+  "refs": [
+   "SGP/1182",
+   "SGP/1197"
+  ],
+  "stage": "reminder",
+  "when": "2026-11-09",
+  "channel": "WhatsApp",
+  "purpose": "Reminded them to report both invoices by 11 Nov",
+  "language": "Hinglish",
+  "to": "Mahesh Kulkarni",
+  "cc": null,
+  "prompt": "You write a message from an Indian buyer's GST team to a supplier. The goal is to get the supplier to fix their GST filing so the buyer can claim input tax credit.\nReply with ONLY one JSON object: {\"subject\":\"\",\"body\":\"\"} (subject is \"\" for WhatsApp).\n\nWrite in Hinglish (Hindi in Latin script, mixed with English) for WhatsApp. Stage: Friendly reminder two days before their promised date: on 6 Oct they promised to report both invoices in this month's GSTR-1 by 11 Nov. Thank them and remind them briefly.\nInclude what the stage needs, in this order: a one-line greeting by name; what is wrong, in plain words; the invoices as a short list (number, date, GST amount, what is wrong); exactly what we need them to do; the date we need it by; an offer to share invoice copies. Reminders and short replies may skip the parts they do not need.\nTone: polite, specific and firm. No threats, no legal language, no blame. Never mention holding, delaying or linking any payment. Mention payment only if the stage says so, and then only in the exact words given.\nLength: at most 140 words in the body for email, 80 for WhatsApp. End with the sender's name and \"GST team\".\n\nFACTS\nFrom: Abhishek Attri, GST team, Kestrel Auto Components Pvt Ltd (Pune unit, GSTIN 27ZZKCK4821M1Z0)\nTo: Mahesh Kulkarni at Shree Ganesh Packaging (GSTIN 27ZZKPK3307L1ZG)\nCopy: none\nInvoices:\n- SGP/1182 | 12 Aug 2026 | GST ₹33,552 | Missing from our GSTR-2B\n- SGP/1197 | 21 Aug 2026 | GST ₹38,664 | Missing from our GSTR-2B\nNeed by: 11 Nov 2026, the due date of your October GSTR-1\n"
+ },
+ {
+  "id": "R-S05",
+  "sid": "S05",
+  "refs": [
+   "KE/219"
+  ],
+  "stage": "reminder",
+  "when": "2026-11-09",
+  "channel": "WhatsApp",
+  "purpose": "Reminded them to correct KE/219 by 11 Nov",
+  "language": "Hindi",
+  "to": "Ramesh Kumar",
+  "cc": null,
+  "prompt": "You write a message from an Indian buyer's GST team to a supplier. The goal is to get the supplier to fix their GST filing so the buyer can claim input tax credit.\nReply with ONLY one JSON object: {\"subject\":\"\",\"body\":\"\"} (subject is \"\" for WhatsApp).\n\nWrite in Hindi (Devanagari script) for WhatsApp. Stage: Friendly reminder two days before their promised date: on 12 Oct they promised to correct invoice KE/219 in this month's GSTR-1, due 11 Nov. Thank them and remind them briefly.\nInclude what the stage needs, in this order: a one-line greeting by name; what is wrong, in plain words; the invoices as a short list (number, date, GST amount, what is wrong); exactly what we need them to do; the date we need it by; an offer to share invoice copies. Reminders and short replies may skip the parts they do not need.\nTone: polite, specific and firm. No threats, no legal language, no blame. Never mention holding, delaying or linking any payment. Mention payment only if the stage says so, and then only in the exact words given.\nLength: at most 140 words in the body for email, 80 for WhatsApp. End with the sender's name and \"GST team\".\n\nFACTS\nFrom: Abhishek Attri, GST team, Kestrel Auto Components Pvt Ltd (Manesar unit, GSTIN 06ZZKCK4821M1Z4)\nTo: Ramesh Kumar at Krishna Electricals (GSTIN 06ZZKPK4410R1ZA)\nCopy: none\nInvoices:\n- KE/219 | 11 Aug 2026 | GST ₹21,600 | Supplier reported GST ₹18,000 instead of ₹21,600\nNeed by: 11 Nov 2026, the due date of your October GSTR-1\n"
+ },
+ {
+  "id": "R-S07",
+  "sid": "S07",
+  "refs": [
+   "SRW/0933",
+   "SRW/0941"
+  ],
+  "stage": "reminder",
+  "when": "2026-11-09",
+  "channel": "Email",
+  "purpose": "Reminded them to amend both invoices by 11 Nov",
+  "language": "English",
+  "to": "Lakshmi Narayanan",
+  "cc": null,
+  "prompt": "You write a message from an Indian buyer's GST team to a supplier. The goal is to get the supplier to fix their GST filing so the buyer can claim input tax credit.\nReply with ONLY one JSON object: {\"subject\":\"\",\"body\":\"\"} (subject is \"\" for WhatsApp).\n\nWrite in English for Email. Stage: Friendly reminder two days before their promised date: on 8 Oct they promised to amend both invoices in their October GSTR-1, due 11 Nov. Thank them and remind them briefly.\nInclude what the stage needs, in this order: a one-line greeting by name; what is wrong, in plain words; the invoices as a short list (number, date, GST amount, what is wrong); exactly what we need them to do; the date we need it by; an offer to share invoice copies. Reminders and short replies may skip the parts they do not need.\nTone: polite, specific and firm. No threats, no legal language, no blame. Never mention holding, delaying or linking any payment. Mention payment only if the stage says so, and then only in the exact words given.\nLength: at most 140 words in the body for email, 80 for WhatsApp. End with the sender's name and \"GST team\".\n\nFACTS\nFrom: Abhishek Attri, GST team, Kestrel Auto Components Pvt Ltd (Chennai unit, GSTIN 33ZZKCK4821M1Z7)\nTo: Lakshmi Narayanan at Sunrise Rubber Works (GSTIN 33ZZSCS8813K1ZN)\nCopy: none\nInvoices:\n- SRW/0933 | 8 Aug 2026 | GST ₹43,200 | Reported as IGST; should be CGST + SGST\n- SRW/0941 | 19 Aug 2026 | GST ₹35,100 | Reported as IGST; should be CGST + SGST\nNeed by: 11 Nov 2026, the due date of your October GSTR-1\n"
+ },
+ {
+  "id": "R-S10",
+  "sid": "S10",
+  "refs": [
+   "RA/2526/0388",
+   "RA/2627/0119"
+  ],
+  "stage": "reminder",
+  "when": "2026-11-04",
+  "channel": "WhatsApp",
+  "purpose": "Reminded them to upload both invoices by 6 Nov",
+  "language": "Hinglish",
+  "to": "Vikas Rathi",
+  "cc": null,
+  "prompt": "You write a message from an Indian buyer's GST team to a supplier. The goal is to get the supplier to fix their GST filing so the buyer can claim input tax credit.\nReply with ONLY one JSON object: {\"subject\":\"\",\"body\":\"\"} (subject is \"\" for WhatsApp).\n\nWrite in Hinglish (Hindi in Latin script, mixed with English) for WhatsApp. Stage: Friendly reminder two days before their promised date: on 16 Oct they promised to upload both invoices by 6 Nov. Thank them and remind them briefly.\nInclude what the stage needs, in this order: a one-line greeting by name; what is wrong, in plain words; the invoices as a short list (number, date, GST amount, what is wrong); exactly what we need them to do; the date we need it by; an offer to share invoice copies. Reminders and short replies may skip the parts they do not need.\nTone: polite, specific and firm. No threats, no legal language, no blame. Never mention holding, delaying or linking any payment. Mention payment only if the stage says so, and then only in the exact words given.\nLength: at most 140 words in the body for email, 80 for WhatsApp. End with the sender's name and \"GST team\".\n\nFACTS\nFrom: Abhishek Attri, GST team, Kestrel Auto Components Pvt Ltd (Pune unit, GSTIN 27ZZKCK4821M1Z0)\nTo: Vikas Rathi at Rathi Alloys (GSTIN 08ZZRFR6604A1Z4)\nCopy: none\nInvoices:\n- RA/2526/0388 | 24 Mar 2026 | GST ₹1,00,800 | Missing from our GSTR-2B\n- RA/2627/0119 | 6 Aug 2026 | GST ₹57,600 | Missing from our GSTR-2B\nNeed by: 6 Nov 2026, the date you gave us (the FY 2025-26 invoice must reach our GSTR-2B before 30 Nov 2026)\n"
+ },
+ {
+  "id": "R-S11",
+  "sid": "S11",
+  "refs": [
+   "ST/2231",
+   "ST/2232"
+  ],
+  "stage": "reminder",
+  "when": "2026-11-09",
+  "channel": "WhatsApp",
+  "purpose": "Reminded them to report ST/2231 and ST/2232 by 11 Nov",
+  "language": "Hinglish",
+  "to": "Prakash Sawant",
+  "cc": null,
+  "prompt": "You write a message from an Indian buyer's GST team to a supplier. The goal is to get the supplier to fix their GST filing so the buyer can claim input tax credit.\nReply with ONLY one JSON object: {\"subject\":\"\",\"body\":\"\"} (subject is \"\" for WhatsApp).\n\nWrite in Hinglish (Hindi in Latin script, mixed with English) for WhatsApp. Stage: Friendly reminder two days before their promised date: on 9 Oct they promised to report ST/2231 and ST/2232 in this month's GSTR-1, due 11 Nov. Thank them and remind them briefly.\nInclude what the stage needs, in this order: a one-line greeting by name; what is wrong, in plain words; the invoices as a short list (number, date, GST amount, what is wrong); exactly what we need them to do; the date we need it by; an offer to share invoice copies. Reminders and short replies may skip the parts they do not need.\nTone: polite, specific and firm. No threats, no legal language, no blame. Never mention holding, delaying or linking any payment. Mention payment only if the stage says so, and then only in the exact words given.\nLength: at most 140 words in the body for email, 80 for WhatsApp. End with the sender's name and \"GST team\".\n\nFACTS\nFrom: Abhishek Attri, GST team, Kestrel Auto Components Pvt Ltd (Pune unit, GSTIN 27ZZKCK4821M1Z0)\nTo: Prakash Sawant at Sai Tooling Solutions (GSTIN 27ZZSCS2087J1ZK)\nCopy: none\nInvoices:\n- ST/2231 | 3 Aug 2026 | GST ₹13,680 | Missing from our GSTR-2B\n- ST/2232 | 3 Aug 2026 | GST ₹11,610 | Missing from our GSTR-2B\nNeed by: 11 Nov 2026, the due date of your October GSTR-1\n"
+ },
+ {
+  "id": "R-S12a",
+  "sid": "S12",
+  "refs": [
+   "VC/0688"
+  ],
+  "stage": "reminder",
+  "when": "2026-10-29",
+  "channel": "Email",
+  "purpose": "Reminded them that VC/0688 belongs in the August return they promised by 31 Oct",
+  "language": "English",
+  "to": "Farhan Sheikh",
+  "cc": null,
+  "prompt": "You write a message from an Indian buyer's GST team to a supplier. The goal is to get the supplier to fix their GST filing so the buyer can claim input tax credit.\nReply with ONLY one JSON object: {\"subject\":\"\",\"body\":\"\"} (subject is \"\" for WhatsApp).\n\nWrite in English for Email. Stage: Friendly reminder two days before the date they gave: on 11 Oct they said they would file their August and September returns by 31 Oct. Invoice VC/0688 belongs in the August return. Remind them briefly and wish them well.\nInclude what the stage needs, in this order: a one-line greeting by name; what is wrong, in plain words; the invoices as a short list (number, date, GST amount, what is wrong); exactly what we need them to do; the date we need it by; an offer to share invoice copies. Reminders and short replies may skip the parts they do not need.\nTone: polite, specific and firm. No threats, no legal language, no blame. Never mention holding, delaying or linking any payment. Mention payment only if the stage says so, and then only in the exact words given.\nLength: at most 140 words in the body for email, 80 for WhatsApp. End with the sender's name and \"GST team\".\n\nFACTS\nFrom: Abhishek Attri, GST team, Kestrel Auto Components Pvt Ltd (Pune unit, GSTIN 27ZZKCK4821M1Z0)\nTo: Farhan Sheikh at Vega Chemicals (GSTIN 24ZZVCV5149E1ZU)\nCopy: none\nInvoices:\n- VC/0688 | 12 Aug 2026 | GST ₹78,300 | Missing from our GSTR-2B\nNeed by: 31 Oct 2026, the date you gave us\n"
+ },
+ {
+  "id": "R-S12b",
+  "sid": "S12",
+  "refs": [
+   "VC/0512"
+  ],
+  "stage": "reminder",
+  "when": "2026-11-09",
+  "channel": "Email",
+  "purpose": "Reminded them to include VC/0512 in the October GSTR-1, by 11 Nov",
+  "language": "English",
+  "to": "Farhan Sheikh",
+  "cc": null,
+  "prompt": "You write a message from an Indian buyer's GST team to a supplier. The goal is to get the supplier to fix their GST filing so the buyer can claim input tax credit.\nReply with ONLY one JSON object: {\"subject\":\"\",\"body\":\"\"} (subject is \"\" for WhatsApp).\n\nWrite in English for Email. Stage: Friendly reminder two days before their promised date: on 19 Oct they promised to include VC/0512 in their October GSTR-1, due 11 Nov. Remind them briefly that this is the last filing that keeps the FY 2025-26 credit claimable.\nInclude what the stage needs, in this order: a one-line greeting by name; what is wrong, in plain words; the invoices as a short list (number, date, GST amount, what is wrong); exactly what we need them to do; the date we need it by; an offer to share invoice copies. Reminders and short replies may skip the parts they do not need.\nTone: polite, specific and firm. No threats, no legal language, no blame. Never mention holding, delaying or linking any payment. Mention payment only if the stage says so, and then only in the exact words given.\nLength: at most 140 words in the body for email, 80 for WhatsApp. End with the sender's name and \"GST team\".\n\nFACTS\nFrom: Abhishek Attri, GST team, Kestrel Auto Components Pvt Ltd (Pune unit, GSTIN 27ZZKCK4821M1Z0)\nTo: Farhan Sheikh at Vega Chemicals (GSTIN 24ZZVCV5149E1ZU)\nCopy: none\nInvoices:\n- VC/0512 | 16 Jan 2026 | GST ₹1,24,200 | Missing from our GSTR-2B\nNeed by: 11 Nov 2026, the due date of your October GSTR-1 (this is also the last filing that keeps our FY 2025-26 credit claimable before 30 Nov 2026)\n"
+ },
+ {
+  "id": "F-S05",
+  "sid": "S05",
+  "refs": [
+   "KE/219"
+  ],
+  "stage": "promise_broken",
+  "when": "2026-11-12",
+  "channel": "WhatsApp",
+  "purpose": "Asked them to correct KE/219 in the November GSTR-1, by 11 Dec",
+  "language": "Hindi",
+  "to": "Ramesh Kumar",
+  "cc": null,
+  "prompt": "You write a message from an Indian buyer's GST team to a supplier. The goal is to get the supplier to fix their GST filing so the buyer can claim input tax credit.\nReply with ONLY one JSON object: {\"subject\":\"\",\"body\":\"\"} (subject is \"\" for WhatsApp).\n\nWrite in Hindi (Devanagari script) for WhatsApp. Stage: Their promise was to correct invoice KE/219 in the October GSTR-1, due 11 Nov. That deadline has passed and the correction is not in our records. Politely but firmly ask them to correct it in the November GSTR-1 and to reply with the date. No blame.\nInclude what the stage needs, in this order: a one-line greeting by name; what is wrong, in plain words; the invoices as a short list (number, date, GST amount, what is wrong); exactly what we need them to do; the date we need it by; an offer to share invoice copies. Reminders and short replies may skip the parts they do not need.\nTone: polite, specific and firm. No threats, no legal language, no blame. Never mention holding, delaying or linking any payment. Mention payment only if the stage says so, and then only in the exact words given.\nLength: at most 140 words in the body for email, 80 for WhatsApp. End with the sender's name and \"GST team\".\n\nFACTS\nFrom: Abhishek Attri, GST team, Kestrel Auto Components Pvt Ltd (Manesar unit, GSTIN 06ZZKCK4821M1Z4)\nTo: Ramesh Kumar at Krishna Electricals (GSTIN 06ZZKPK4410R1ZA)\nCopy: none\nInvoices:\n- KE/219 | 11 Aug 2026 | GST ₹21,600 | Supplier reported GST ₹18,000 instead of ₹21,600\nNeed by: 11 Dec 2026, the due date of your November GSTR-1\n"
+ }
+]

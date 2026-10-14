@@ -1,0 +1,321 @@
+{
+ "D01": {
+  "intent": "will_fix",
+  "date": "2026-11-11",
+  "refs": [
+   "SGP/1182",
+   "SGP/1197"
+  ],
+  "human": false
+ },
+ "D02": {
+  "intent": "claims_fixed",
+  "date": null,
+  "refs": [
+   "PST/26-27/0871",
+   "PST/26-27/0874",
+   "PST/26-27/0880"
+  ],
+  "human": false
+ },
+ "D03": {
+  "intent": "needs_info",
+  "date": null,
+  "refs": [
+   "BF/26-27/3310"
+  ],
+  "human": true
+ },
+ "D04": {
+  "intent": "conditional",
+  "date": null,
+  "refs": [
+   "NP/2526/1450",
+   "NP/2526/1502",
+   "NP/2627/0215"
+  ],
+  "human": true
+ },
+ "D05": {
+  "intent": "will_fix",
+  "date": "2026-11-11",
+  "refs": [
+   "KE/219"
+  ],
+  "human": false
+ },
+ "D07": {
+  "intent": "will_fix",
+  "date": "2026-11-11",
+  "refs": [
+   "SRW/0933",
+   "SRW/0941"
+  ],
+  "human": false
+ },
+ "D08": {
+  "intent": "auto_reply",
+  "date": null,
+  "refs": [],
+  "human": false
+ },
+ "D09": {
+  "intent": "wrong_contact",
+  "date": null,
+  "refs": [],
+  "human": true
+ },
+ "D10": {
+  "intent": "unclear",
+  "date": null,
+  "refs": [],
+  "human": true
+ },
+ "D11": {
+  "intent": "mixed",
+  "date": "2026-11-11",
+  "refs": [
+   "ST/2231",
+   "ST/2232",
+   "ST/2231-B"
+  ],
+  "human": true
+ },
+ "D12": {
+  "intent": "will_fix",
+  "date": "2026-10-31",
+  "refs": [
+   "VC/0688"
+  ],
+  "human": true
+ },
+ "D13": {
+  "intent": "claims_fixed",
+  "date": null,
+  "refs": [
+   "JIG/26/1104",
+   "JIG/26/1131"
+  ],
+  "human": true
+ },
+ "D14": {
+  "intent": "will_fix",
+  "date": "2026-10-16",
+  "refs": [
+   "KP/0716",
+   "KP/0722"
+  ],
+  "human": false
+ },
+ "E01": {
+  "intent": "claims_fixed",
+  "date": null,
+  "refs": [
+   "AB/5521"
+  ],
+  "human": false
+ },
+ "E02": {
+  "intent": "unclear",
+  "date": null,
+  "refs": [],
+  "human": true
+ },
+ "E03": {
+  "intent": "will_fix",
+  "date": "2026-10-08",
+  "refs": [
+   "MP/0331"
+  ],
+  "human": false
+ },
+ "E04": {
+  "intent": "will_fix",
+  "date": "2026-11-11",
+  "refs": [
+   "SBW/118",
+   "SBW/121"
+  ],
+  "human": false
+ },
+ "E05": {
+  "intent": "claims_fixed",
+  "date": null,
+  "refs": [
+   "DT/77"
+  ],
+  "human": false
+ },
+ "E06": {
+  "intent": "dispute",
+  "date": null,
+  "refs": [
+   "INV-3302"
+  ],
+  "human": true
+ },
+ "E07": {
+  "intent": "needs_info",
+  "date": null,
+  "refs": [
+   "UE/9910"
+  ],
+  "human": true
+ },
+ "E08": {
+  "intent": "conditional",
+  "date": null,
+  "refs": [
+   "BC/1550",
+   "BC/1561"
+  ],
+  "human": true
+ },
+ "E09": {
+  "intent": "not_related",
+  "date": null,
+  "refs": [],
+  "human": false
+ },
+ "E10": {
+  "intent": "auto_reply",
+  "date": null,
+  "refs": [],
+  "human": false
+ },
+ "E11": {
+  "intent": "will_fix",
+  "date": null,
+  "refs": [
+   "HG/2290"
+  ],
+  "human": false
+ },
+ "E12": {
+  "intent": "will_fix",
+  "date": "2026-10-31",
+  "refs": [
+   "STS/604",
+   "STS/611"
+  ],
+  "human": false
+ },
+ "E13": {
+  "intent": "claims_fixed",
+  "date": null,
+  "refs": [
+   "PSR/1932"
+  ],
+  "human": false
+ },
+ "E14": {
+  "intent": "mixed",
+  "date": "2026-11-11",
+  "refs": [
+   "EF/1043",
+   "EF/1047"
+  ],
+  "human": true
+ },
+ "E15": {
+  "intent": "dispute",
+  "date": null,
+  "refs": [
+   "RHM/88"
+  ],
+  "human": true
+ },
+ "E16": {
+  "intent": "will_fix",
+  "date": "2026-11-11",
+  "refs": [
+   "NA/3310"
+  ],
+  "human": true
+ },
+ "E17": {
+  "intent": "wrong_contact",
+  "date": null,
+  "refs": [],
+  "human": true
+ },
+ "E18": {
+  "intent": "needs_info",
+  "date": null,
+  "refs": [
+   "GT/1207"
+  ],
+  "human": true
+ },
+ "E19": {
+  "intent": "will_fix",
+  "date": "2026-10-25",
+  "refs": [
+   "WV/6612"
+  ],
+  "human": true
+ },
+ "E20": {
+  "intent": "claims_fixed",
+  "date": null,
+  "refs": [
+   "PS/880",
+   "PS/884"
+  ],
+  "human": false
+ },
+ "E21": {
+  "intent": "unclear",
+  "date": null,
+  "refs": [],
+  "human": true
+ },
+ "E22": {
+  "intent": "conditional",
+  "date": null,
+  "refs": [
+   "SW/773"
+  ],
+  "human": true
+ },
+ "E23": {
+  "intent": "mixed",
+  "date": "2026-11-11",
+  "refs": [
+   "API/4410",
+   "API/4415"
+  ],
+  "human": false
+ },
+ "E24": {
+  "intent": "not_related",
+  "date": null,
+  "refs": [],
+  "human": false
+ },
+ "E25": {
+  "intent": "will_fix",
+  "date": "2026-10-20",
+  "refs": [
+   "BE/221",
+   "BE/229"
+  ],
+  "human": false
+ },
+ "E26": {
+  "intent": "dispute",
+  "date": null,
+  "refs": [
+   "HP/317"
+  ],
+  "human": true
+ },
+ "E27": {
+  "intent": "claims_fixed",
+  "date": null,
+  "refs": [
+   "MAP/2045"
+  ],
+  "human": false
+ }
+}

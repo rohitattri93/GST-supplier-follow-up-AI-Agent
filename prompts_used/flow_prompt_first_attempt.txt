@@ -1,0 +1,23 @@
+You are a product designer for a GST compliance SaaS in India. Map the follow-up flow for one supplier, from the moment reconciliation flags an invoice until the credit is confirmed or lost. Use only the facts and rules below. Return:
+1. The states, each with a one-line definition.
+2. Every transition, as "from → to: what causes it (who or what)".
+3. The steps where a person must decide, and why.
+4. Two edge cases this flow handles badly.
+Keep each line under 15 words. Do not add rules that are not listed. Answer in under 350 words.
+
+FACTS
+- Reconciliation compares the buyer's purchase register with GSTR-2B and flags invoices the supplier has not reported correctly.
+- Only the supplier can fix it, by reporting or amending the invoice in their GSTR-1, due on the 11th.
+- IMS shows the buyer what a supplier filed within days; GSTR-2B, generated on the 14th, confirms it.
+- FY 2025-26 credit must appear in GSTR-2B by 14 Nov 2026 to be claimed before 30 Nov 2026.
+- Suppliers reply by email or WhatsApp, in English, Hindi, Hinglish, Gujarati or Marathi.
+
+RULES
+R1 A clear promised date more than a week away: one reminder 2 days before it.
+R2 An out-of-office reply with a return date: follow up the day after they are back.
+R3 A dispute, condition, request for documents, unclear reply, wrong contact or hostile tone: a person decides.
+R4 A frustrated or hostile tone: alert the relationship owner and slow reminders.
+R5 A promised fix not in IMS after the GSTR-1 due date: mark the promise broken and draft a firmer message for approval.
+R6 A supplier who wants payment first: a hold may be suggested, never for micro or small enterprises or invoices over 150 days old.
+R7 A supplier who says it is already fixed: keep it open until it appears in GSTR-2B.
+R8 FY 2025-26 credit: flag the 30 Nov deadline and put it first.

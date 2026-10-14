@@ -1,0 +1,15 @@
+{
+  "name": "gst-supplier-follow-up-ai-agent",
+  "version": "0.1.0",
+  "private": true,
+  "description": "Synthetic GST supplier follow-up product prototype",
+  "scripts": {
+    "build": "node build.js",
+    "check:recorded": "node check_recorded.js",
+    "test:journeys": "node test/journeys.js",
+    "test:regressions": "node test/regressions.js"
+  },
+  "devDependencies": {
+    "playwright": "^1.55.0"
+  }
+}
