@@ -57,7 +57,7 @@ I selected the problem, defined the scope and constraints, designed the workflow
 | --- | --- |
 | 40 synthetic supplier replies across five languages | An initial test set for reply interpretation and routing; language coverage is uneven |
 | Saved responses from three model tiers | A basis for comparing behaviour and escalation trade-offs |
-| 19 of 20 human-review cases detected in the saved evaluation | One missed frustrated reply identifies an important routing improvement |
+| 19 of 20 human-review cases detected in the original saved evaluation | The missed frustrated reply prompted a stronger human-review guard; updated metrics require a fresh evaluation run |
 | Cautious, likely and strong business scenarios | A transparent model of potential value, rather than measured customer results |
 
 The likely scenario estimates approximately **₹15.83 lakh in annual value per customer** against an assumed **₹2 lakh annual price**. This is an illustrative projection, dominated by the assumed reduction in credit loss. The workbook's AI-cost scenario links and cohort assumptions require the corrections documented in the [technical review](docs/LIMITATIONS.md).
@@ -79,7 +79,7 @@ The PDFs, video and workbook preserve the original assignment submission. The te
 
 This is a functional portfolio prototype, developed independently for a Masters India APM assignment. Companies, supplier messages, invoices and filing outcomes are fictional. Customer research and production outcomes have not yet been measured.
 
-The current implementation requires corrections to deadline-based loss classification, frustrated-reply routing and generated-output validation. GSTR-2B appearance supports mismatch verification but does not establish full ITC eligibility or prove that credit was claimed. These issues are documented in the [improvement backlog](docs/LIMITATIONS.md).
+Deadline-based loss classification and generated-output validation remain known gaps. The source now escalates both frustrated and hostile replies to human review, and the live reader retries failed material checks. These corrections require regression verification before release. GSTR-2B appearance supports mismatch verification but does not establish full ITC eligibility or prove that credit was claimed. These issues are documented in the [improvement backlog](docs/LIMITATIONS.md).
 
 Next milestones:
 

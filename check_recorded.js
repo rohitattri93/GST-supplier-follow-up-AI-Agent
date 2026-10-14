@@ -29,4 +29,5 @@ for (const j of qaJobs) {
 }
 console.log("missing", missing.length, missing.join(" "));
 console.log("failing", bad.length); bad.forEach(b => console.log("  ", b[0], "|", b[1]));
+if (missing.length || bad.length) process.exitCode = 1;
 module.exports = {};

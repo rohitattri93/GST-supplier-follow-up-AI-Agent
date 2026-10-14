@@ -522,7 +522,7 @@ mark { background: var(--mark); color: inherit; padding: 0 2px; border-radius: 3
       }
       if (o.intent === "claims_fixed") checks.push({ ok: true, t: "A claim is never counted as fixed; GSTR-2B decides (rule R7)" });
       const st = (o.invoices || []).map(i => i.status);
-      const rule = HUMAN_INTENTS.includes(o.intent) || st.some(s => HUMAN_INTENTS.includes(s)) || o.tone === "hostile" ||
+      const rule = HUMAN_INTENTS.includes(o.intent) || st.some(s => HUMAN_INTENTS.includes(s)) || (o.tone === "hostile" || o.tone === "frustrated") ||
         (o.risk_flags || []).some(f => /^(financial_distress|partial_coverage|unknown_invoice)/.test(f)) || o.confidence === "low" || !evOk ||
         bad.length > 0 || badSt.length > 0 || dateBad; // any failed material check sends the reply to a person
       o._human = !!o.needs_human || rule; o._checks = checks; o._evOk = evOk;
@@ -1184,7 +1184,7 @@ const M = SFA.createModel(W, { readings: B.readings, drafts: B.drafts });
 const { fd, inr, lakh, days, addDays, wday, plural, listAnd, ST, GROUPS, T_DATES, T_LABEL, INTENT_TEXT, INTENTS, HUMAN_INTENTS, STEP_TEXT, RULES_META, RULE_TEMPLATES, DEFAULT_RULES, DEFAULT_SETTINGS, PROMPT_VERSIONS } = SFA;
 const SUP = M.SUP, INV = M.INV, REPLY = M.REPLY;
 const USER = W.user;
-const LINKS = {"submission":"../README.md","deck":"files/Product_Deck.pdf","doc":"files/Product_Document.pdf","repo":"https://github.com/rohitattri93/gst-supplier-follow-up-ai-agent"}; // filled in at publish time
+const LINKS = {"submission":"https://github.com/rohitattri93/GST-supplier-follow-up-AI-Agent#readme","deck":"files/Product_Deck.pdf","doc":"files/Product_Document.pdf","repo":"https://github.com/rohitattri93/GST-supplier-follow-up-AI-Agent"}; // filled in at publish time
 const $ = (s, r = document) => r.querySelector(s);
 const $$ = (s, r = document) => [...r.querySelectorAll(s)];
 const esc = s => String(s ?? "").replace(/[&<>"']/g, c => ({ "&": "&amp;", "<": "&lt;", ">": "&gt;", '"': "&quot;", "'": "&#39;" }[c]));
@@ -2259,7 +2259,7 @@ async function liveTry(sid) {
   if (!text) { UI.tryOut[sid] = { error: "Write a reply first." }; render(); return; }
   UI.tryText = text; UI.busy["try|" + sid] = true; UI.keepScroll = true; render();
   const refs = v.inv.map(x => x.ref); const today = clockNow();
-  try { const r = await askChecked("reader", readerPromptFor(v, text), out => ({ ok: true, checks: M.guard(out, text, refs, today)._checks })); UI.tryOut[sid] = { text, g: M.guard(r.out, text, refs, today), ms: r.ms, tier: r.tier }; }
+  try { const r = await askChecked("reader", readerPromptFor(v, text), out => { const g = M.guard(out, text, refs, today); return { ok: g._checks.every(c => c.ok), checks: g._checks }; }); UI.tryOut[sid] = { text, g: M.guard(r.out, text, refs, today), ms: r.ms, tier: r.tier }; }
   catch (e) { UI.tryOut[sid] = { error: errText(e) }; }
   UI.busy["try|" + sid] = false; UI.keepScroll = true; render();
 }
