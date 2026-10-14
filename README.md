@@ -2,70 +2,105 @@
 
 **From invoice mismatches to supplier action: AI-assisted follow-ups, human oversight and evidence-based resolution tracking.**
 
-Built by Rohit Kumar as an independent product assignment for the Masters India APM hiring process. This is a portfolio case study using fictional companies, suppliers, invoices, messages and outcomes. It is not a Masters India product or a production integration.
+An AI product management case study by **Rohit Kumar**, covering problem framing, workflow design, prompt engineering, model evaluation, business impact modelling and a working browser application.
 
-![Supplier follow-up prototype](docs/assets/product-preview.jpg)
+![GST supplier follow-up workspace](docs/assets/product-preview.jpg)
 
-## Start here
+**Explore:** [Product deck](docs/files/Product_Deck.pdf) · [101-second walkthrough](docs/files/Walkthrough.mp4) · [Case study](docs/CASE_STUDY.md) · [Downloadable demo](docs/index.html)
 
-| Explore | Link |
+## The product opportunity
+
+GST reconciliation identifies invoice mismatches. Resolving them requires a second workflow: contacting suppliers, interpreting replies, tracking commitments, coordinating internal decisions and checking filing evidence.
+
+The Supplier Follow-up AI Agent brings the supplier conversation, invoice context and next action into one workspace. Its central hypothesis is that better coordination can reduce manual follow-up effort and improve timely mismatch resolution.
+
+**Target user:** GST operations teams managing supplier exceptions across multiple invoices and communication channels.
+
+## Core product capabilities
+
+| Capability | Workflow |
 | --- | --- |
-| Product story and decisions | [Case study](docs/CASE_STUDY.md) |
-| Six-slide overview | [Product deck](docs/files/Product_Deck.pdf) |
-| Clickable demo | Download [docs/index.html](docs/index.html), then open it in a browser |
-| Recorded walkthrough | [101-second captioned video](docs/files/Walkthrough.mp4) |
-| Product requirements and decision log | [Product document](docs/files/Product_Document.pdf) |
-| Assumptions and scenario calculations | [Impact workbook](docs/files/Impact_Model.xlsx) |
-| Build specification | [Build prompt](docs/files/Build_Prompt.pdf) |
-| Evidence, corrections and open issues | [Limitations](docs/LIMITATIONS.md) |
+| Supplier case management | Review 16 supplier cases and 29 invoices in the synthetic demo dataset |
+| AI reply analysis | Extract supplier intent, commitments, invoice references and escalation signals |
+| Follow-up drafting | Prepare contextual messages using the case history and invoice evidence |
+| Human approval workflows | Review proposed actions and handle judgement-heavy exceptions |
+| Commitment tracking | Follow promises, reminders, missed dates and case history |
+| Filing evidence tracking | Compare supplier claims with simulated IMS and GSTR-2B records |
+| Case summaries and Q&A | Review concise updates and ask questions about supplier records |
 
-Read the limitations before quoting the attached PDFs or workbook: those files preserve the original submission, including assumptions and claims corrected during a later review.
+The application demonstrates these workflows with synthetic data and recorded AI responses. Live AI execution depends on the Claude host; outbound messaging and GST portal integrations are simulated.
 
-## The problem
+## My role and contribution
 
-A reconciliation dashboard identifies invoice mismatches. The next task is operational: contact suppliers, interpret replies, track commitments, decide when a person should intervene, and check whether the mismatch was resolved. That follow-up work spans inboxes, calendars and spreadsheets.
+I selected the problem, defined the scope and constraints, designed the workflow and made the product decisions. I used Claude to assist with research, code implementation, prompt design, synthetic evaluation data and documentation.
 
-The prototype puts the supplier conversation, invoice evidence and next action in one workflow. The product hypothesis is that this reduces manual work and helps teams resolve mismatches sooner. Real-user research and customer outcomes have not been measured.
-
-## What works in this prototype
-
-- Supplier inbox and individual case views, with 16 suppliers and 29 synthetic invoices.
-- Rule-driven prioritisation, promises, reminders, approval actions and audit history.
-- Four AI tasks: read a reply, draft a message, summarise a case and answer questions about its records.
-- Recorded AI outputs for repeatable demos, plus a Claude-hosted live integration path.
-- A synthetic 40-reply evaluation set, saved model outputs and scoring scripts.
-- An illustrative business-impact workbook with cautious, likely and strong scenarios.
-
-Email, WhatsApp sending, GST portal updates, login and later filing outcomes are simulated. Browser state is stored locally. Outside the Claude host, the demo uses recorded outputs. Some fonts and PDF-export dependencies require internet access.
-
-## My contribution and use of AI
-
-I selected the problem, scoped the workflow, defined product constraints and made product decisions. I used Claude to assist with research, implementation, prompt design, synthetic test data, recorded responses and documentation. This repository demonstrates AI-assisted product development; it does not represent an independently hand-coded production system.
-
-## Product decisions
-
-| Decision | Reason |
+| Product responsibility | Evidence in this repository |
 | --- | --- |
-| Code owns amounts, state and workflow rules | Language generation should not decide financial facts |
-| Supplier claims remain unverified until checked against filing evidence | A reply saying “fixed” is not proof of resolution |
-| Humans handle judgement-heavy cases | Disputes, conditions, ambiguous replies and relationship risk need review |
-| Recorded outputs support the public demo | Reviewers can explore the workflow without supplying API credentials |
-| Business impact is a scenario model | Avoided loss, time saved and willingness to pay still require validation |
+| Problem selection and prioritisation | Product case study and decision log |
+| MVP scope and exception handling | Product document and interactive workflow |
+| AI task design | Reader, drafter, summary and Q&A prompts |
+| Evaluation and model trade-offs | 40-reply synthetic dataset, saved outputs and scoring scripts |
+| Commercial reasoning | Assumption-driven impact workbook and scenario analysis |
+| Rollout planning | Human approval, shadow-mode validation and staged automation proposal |
 
-GSTR-2B appearance is evidence for resolving a supplier-side mismatch; it does not establish full ITC eligibility or prove that credit was claimed. The demo also has a known premature “lost credit” classification and incomplete output checks. See [the review](docs/LIMITATIONS.md).
+## Key product decisions
 
-## Run and inspect
+- **Separate language tasks from financial logic.** AI interprets and drafts; code calculates amounts and derives case state.
+- **Verify supplier claims against filing evidence.** A message saying “fixed” does not by itself close the mismatch.
+- **Keep human judgement in the workflow.** Disputes, conditions, ambiguous replies and relationship-sensitive cases require review.
+- **Make evaluation inspectable.** Prompts, synthetic labels, saved outputs and scoring code are available alongside the application.
+- **Model value before claiming outcomes.** Avoided loss, faster resolution, staff capacity and willingness to pay remain assumptions to validate.
 
-Prerequisite: a current Node.js installation. Building the demo does not require npm packages or an API key.
+## Evaluation and business evidence
+
+| Evidence | What it establishes |
+| --- | --- |
+| 40 synthetic supplier replies across five languages | An initial test set for reply interpretation and routing; language coverage is uneven |
+| Saved responses from three model tiers | A basis for comparing behaviour and escalation trade-offs |
+| 19 of 20 human-review cases detected in the saved evaluation | One missed frustrated reply identifies an important routing improvement |
+| Cautious, likely and strong business scenarios | A transparent model of potential value, rather than measured customer results |
+
+The likely scenario estimates approximately **₹15.83 lakh in annual value per customer** against an assumed **₹2 lakh annual price**. This is an illustrative projection, dominated by the assumed reduction in credit loss. The workbook's AI-cost scenario links and cohort assumptions require the corrections documented in the [technical review](docs/LIMITATIONS.md).
+
+## Product documentation
+
+| Document | Purpose |
+| --- | --- |
+| [Product case study](docs/CASE_STUDY.md) | Problem, scope, decisions, evidence and next steps |
+| [Six-slide product deck](docs/files/Product_Deck.pdf) | Concise walkthrough of the proposition and approach |
+| [Product document](docs/files/Product_Document.pdf) | Requirements, business rules and decision history |
+| [Impact workbook](docs/files/Impact_Model.xlsx) | Assumptions, formulas and scenario comparisons |
+| [Build specification](docs/files/Build_Prompt.pdf) | Instructions used for the AI-assisted implementation |
+| [Technical review and improvement backlog](docs/LIMITATIONS.md) | Confirmed gaps, corrections and production requirements |
+
+The PDFs, video and workbook preserve the original assignment submission. The technical review records subsequent findings and takes precedence where claims differ.
+
+## Implementation status and next milestones
+
+This is a functional portfolio prototype, developed independently for a Masters India APM assignment. Companies, supplier messages, invoices and filing outcomes are fictional. Customer research and production outcomes have not yet been measured.
+
+The current implementation requires corrections to deadline-based loss classification, frustrated-reply routing and generated-output validation. GSTR-2B appearance supports mismatch verification but does not establish full ITC eligibility or prove that credit was claimed. These issues are documented in the [improvement backlog](docs/LIMITATIONS.md).
+
+Next milestones:
+
+1. Validate the workflow through GST-team interviews and observation.
+2. Correct the rule and validation gaps, then evaluate expert-labelled supplier replies.
+3. Run shadow mode followed by approval-only sending.
+4. Measure supplier-level resolution and staff time using distinct invoice cohorts.
+5. Add authenticated integrations, access controls, delivery safeguards and operational monitoring.
+
+## Run locally
+
+Requires Node.js. Building the recorded demo needs no API key or npm dependencies.
 
 ```bash
 node build.js
 node check_recorded.js
 ```
 
-Open `dist/index.html` after building. The committed `docs/index.html` is the same build, ready to download.
+Open `dist/index.html` after building, or download `docs/index.html`. Browser state uses localStorage. Fonts and PDF-export libraries may require internet access.
 
-The browser journey scripts require Playwright and Chromium. PDF-export checks also require local copies of the two browser libraries:
+For the supplied browser test harness:
 
 ```bash
 npm install
@@ -75,25 +110,22 @@ npm run test:journeys
 npm run test:regressions
 ```
 
-These commands describe the supplied test harness. A fresh browser test run was not completed during this portfolio packaging review. Existing scripts and historical counts are not evidence that all known issues are fixed.
+The build and recorded-response checks passed during portfolio preparation. Browser journeys and live-model calls were not rerun; the existing output checks have the limitations described above.
 
-To regenerate synthetic inputs or the workbook, install `requirements.txt` and inspect `data.py`, `bundle.js` and `impact/build_model.py`. The generated workbook path differs from the archived submission workbook in `docs/files/`.
+For workbook generation, install `requirements.txt` and inspect `impact/build_model.py`. Its generated workbook is separate from the original submission copy in `docs/files/`.
 
-## Repository map
+## Code structure
 
 | Path | Purpose |
 | --- | --- |
-| `model.js` | Case state, rules and validation functions |
+| `model.js` | Case state, business rules and validation |
 | `app/` | HTML, CSS, JavaScript and bundled demo data |
-| `prompts/` | Reader, drafter, summary and Q&A instructions |
-| `data/`, `jobs/`, `out/` | Synthetic world, prompt jobs and recorded responses |
-| `eval/` | Synthetic labels, saved responses and scoring |
-| `test/` | Supplied browser journey and regression scripts |
-| `impact/` | Workbook generation script |
-| `docs/` | Demo, case study, original deliverables and limitations |
+| `prompts/` | Instructions for the four AI tasks |
+| `data/`, `jobs/`, `out/` | Synthetic records, prompt jobs and saved responses |
+| `eval/` | Evaluation labels, model outputs and scoring |
+| `test/` | Browser journey and regression scripts |
+| `impact/` | Business-model workbook generation |
+| `docs/` | Demo, case study, walkthrough and supporting documents |
 
-## Next validation steps
-
-Interview GST teams, observe the existing follow-up workflow, correct the deadline model and routing gaps, obtain expert-labelled real replies, and run shadow mode before permitting real outbound messages. Measure supplier-level resolution and staff time using distinct cohorts rather than repeatedly counting the same open invoices.
-
-**Author:** Rohit Kumar · **Status:** portfolio prototype · **Built with:** JavaScript, HTML/CSS, Python, Claude
+**Built with:** JavaScript · HTML/CSS · Python · Claude  
+**Author:** Rohit Kumar
